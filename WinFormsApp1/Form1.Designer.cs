@@ -64,16 +64,6 @@
             this.buttonRhomb.UseVisualStyleBackColor = true;
             this.buttonRhomb.Click += new System.EventHandler(this.ButtonRhomb_Click);
             // 
-            // buttonClear
-            // 
-            this.buttonClear.Location = new System.Drawing.Point(310, 8);
-            this.buttonClear.Name = "buttonClear";
-            this.buttonClear.Size = new System.Drawing.Size(86, 32);
-            this.buttonClear.TabIndex = 3;
-            this.buttonClear.Text = "Clear";
-            this.buttonClear.UseVisualStyleBackColor = true;
-            this.buttonClear.Click += new System.EventHandler(this.ButtonClear_Click);
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -82,7 +72,6 @@
             Controls.Add(this.buttonCircle);
             Controls.Add(this.buttonSquare);
             Controls.Add(this.buttonRhomb);
-            Controls.Add(this.buttonClear);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
